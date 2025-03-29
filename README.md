@@ -70,23 +70,15 @@ Once the server starts, open the **Local URL** (e.g., `http://localhost:8501`) i
 
 ### **1. Push to GitHub**
 
-```sh
 git init
 git add .
 git commit -m "Initial commit"
 git branch -M main
-git remote add origin <your-repo-url>
+git remote add origin <https://github.com/Anangsha072 >
 git push -u origin main
-```
+
 
 ### **2. Deploy on Streamlit Cloud**
-
-1. Go to [Streamlit Community Cloud](https://share.streamlit.io/)
-2. Click **“New App”** → Select your GitHub repository.
-3. Configure:
-   - **Main file path**: `app.py`
-   - **Dependencies**: It will auto-detect `requirements.txt`
-4. Click **“Deploy”** 🚀
 
 ### **3. Get Your Public URL**
 
