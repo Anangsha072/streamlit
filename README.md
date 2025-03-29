@@ -42,21 +42,13 @@ pip install -r requirements.txt
 
 ### **4. Set Up Environment Variables**
 
-Create a `.env` file in the project directory and add your **Google Gemini API Key**:
-
-```env
-GOOGLE_GEMINI_API_KEY=your_api_key_here
-```
-
----
-
 ## **Usage**
 
 ### **Run the Application**
 
-```sh
+
 streamlit run app.py
-```
+
 
 Once the server starts, open the **Local URL** (e.g., `http://localhost:8501`) in your browser.
 
@@ -158,8 +150,8 @@ This project is open-source and available under the **MIT License**.
 
 ## **Contact**
 
-For any questions or feedback, contact: 📧 Email: [your-email@example.com](mailto\:your-email@example.com)\
-🔗 GitHub: [yourusername](https://github.com/yourusername)
+For any questions or feedback, contact: 📧 Email: anangshadas1@gmail.com
+🔗 GitHub: https://github.com/Anangsha072 
 
 
 to view the app click on https://app-gdnczybh8mdqkxhs5edhyh.streamlit.app/
