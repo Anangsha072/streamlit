@@ -17,30 +17,7 @@ The AI-Powered Travel Planner is a Streamlit-based web application that helps us
 
 ---
 
-## **Installation**
-
-### **1. Clone the Repository**
-
-```sh
-git clone https://github.com/yourusername/ai-travel-planner.git
-cd ai-travel-planner
-```
-
-### **2. Create a Virtual Environment (Optional but Recommended)**
-
-```sh
-python -m venv venv
-source venv/bin/activate  # macOS/Linux
-venv\Scripts\activate    # Windows
-```
-
-### **3. Install Dependencies**
-
-```sh
-pip install -r requirements.txt
-```
-
-### **4. Set Up Environment Variables**
+### ** Set Up Environment Variables**
 
 ## **Usage**
 
@@ -54,17 +31,6 @@ Once the server starts, open the **Local URL** (e.g., `http://localhost:8501`) i
 
 ---
 
-## **Code Structure**
-
-```
-/travel-planner
-  ├── app.py                 # Main Streamlit application
-  ├── requirements.txt        # Dependencies
-  ├── .env                    # API key (Not pushed to GitHub)
-  ├── README.md               # Project Documentation
-```
-
----
 
 ## **Deployment**
 
@@ -80,38 +46,10 @@ git push -u origin main
 
 ### **2. Deploy on Streamlit Cloud**
 
-### **3. Get Your Public URL**
-
-Once deployed, Streamlit Cloud provides a **public URL** to share with users.
-
----
 
 ## **API Integration**
 
-The application integrates with **Google Gemini AI** to generate itineraries. The `generate_itinerary` function sends a prompt to the API and retrieves travel recommendations.
-
-### **API Request Structure**
-
-```python
-import google.generativeai as genai
-
-def generate_itinerary(destination, budget, trip_duration, preferences):
-    prompt = f"""
-    Generate a {trip_duration}-day itinerary for {destination}.
-    - Budget: {budget}
-    - Preferences: {preferences}
-    """
-
-    model = genai.GenerativeModel("gemini-pro")
-    response = model.generate_content(prompt)
-    return response.text.strip()
-```
-
-### **Handling API Errors**
-
-If there’s an issue with the API, the application displays a relevant error message, such as **invalid API key** or **quota exceeded**.
-
----
+The application integrates with **Google Gemini AI** to generate itineraries. 
 
 ## **Future Enhancements**
 
@@ -145,5 +83,5 @@ This project is open-source and available under the **MIT License**.
 For any questions or feedback, contact: 📧 Email: anangshadas1@gmail.com
 🔗 GitHub: https://github.com/Anangsha072 
 
-
+### **3. Get Your Public URL**
 to view the app click on https://app-gdnczybh8mdqkxhs5edhyh.streamlit.app/
